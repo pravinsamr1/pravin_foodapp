@@ -1,0 +1,23 @@
+.appdowload{
+    margin: auto;
+    margin-top: 100px;
+    font-size: max(3vw,20px);
+    text-align: center;
+    font-weight: 500;
+}
+.app-downlaod-platforms{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: max(2vw,10px);
+}
+.app-downlaod-platforms img{
+    width: max(30vw,120px);
+    max-width: 180px;
+    transition: .5s;
+    cursor: pointer;
+}
+.app-downlaod-platforms img:hover{
+    transform: scale(1.05);
+}
